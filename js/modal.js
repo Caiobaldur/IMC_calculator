@@ -1,4 +1,4 @@
-export const Modal = {
+export const modal = {
 
   wrapper: document.querySelector('.modal-wrapper'),
   message: document.querySelector('.modal .title span'),

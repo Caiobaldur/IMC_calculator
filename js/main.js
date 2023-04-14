@@ -1,4 +1,4 @@
-import {Modal} from '/js/modal.js'
+import {modal} from '/js/modal.js'
 import {alertError} from '/js/alert-error.js'
 import {calculateIMC, notANumber} from '/js/utils.js'
 
