@@ -1,18 +1,11 @@
-import {modal} from '/js/modal.js'
-import {alertError} from '/js/alert-error.js'
-import {calculateIMC, notANumber} from '/js/utils.js'
+import { Modal } from 'js/modal.js'
+import { alertError } from 'js/alert-error.js'
+import { calculateIMC, notANumber } from 'js/utils.js'
 
 // variables
 const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
-
-
-// const modalWrapper = document.querySelector('.modal-wrapper')
-// const modalMessage = document.querySelector('.modal .title span')
-// const modalBtnClose = document.querySelector('.modal button.close')
-
-
 
 form.onsubmit = event => {
 	event.preventDefault()
