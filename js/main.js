@@ -1,6 +1,6 @@
-import { Modal } from '/js/modal.js'
-import { alertError } from '/js/alert-error.js'
-import { calculateIMC, notANumber } from '/js/utils.js'
+import { Modal } from "./modal.js";
+import { alertError } from "./alert-error.js";
+import { calculateIMC, notANumber } from "./utils.js";
 
 // variables
 const form = document.querySelector('form')
